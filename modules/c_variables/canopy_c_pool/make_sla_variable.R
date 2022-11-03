@@ -1,6 +1,6 @@
 make_sla_variable <- function() {
 
-    download_lma_data()
+    #download_lma_data()
     
     inDF1 <- read.csv(file.path(getToPath(), "FACE_P0020_RA_LMA_L2_20130213-20131115.csv"))
     inDF2 <- read.csv(file.path(getToPath(), "FACE_P0020_RA_LMA_20140130-20141016_L2.csv"))

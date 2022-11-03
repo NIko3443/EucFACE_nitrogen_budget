@@ -5,7 +5,7 @@ if(!require(HIEv)){
   stop("Install the HIEv package first from bitbucket.org/remkoduursma/HIEv")
 }
 
-setToken(tokenfile="tokenfile.txt", quiet=TRUE)
+#setToken(tokenfile="tokenfile.txt", quiet=TRUE)
 setToPath("download")
 
 if(!require(pacman))install.packages("pacman")

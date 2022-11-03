@@ -9,7 +9,7 @@ make_leaflitter_pool <- function(c_frac){
     #litter_raw$Ring[is.na(litter_raw$Ring)] <- litter_raw$RING[is.na(litter_raw$Ring)]
     #litter_raw$TRAP[is.na(litter_raw$Ring)] <- litter_raw$RING[is.na(litter_raw$Ring)]
     
-    download_leaflitter()
+    #download_leaflitter()
     
     #### read in data
     f16 <- read.csv(file.path(getToPath(), "FACE_P0017_RA_Litter_20160101-20161212-L1-V2.csv"))

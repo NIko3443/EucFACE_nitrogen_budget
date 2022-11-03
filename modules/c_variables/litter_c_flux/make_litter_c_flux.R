@@ -1,6 +1,6 @@
 make_litter_c_flux <- function(c_frac){
     
-    download_leaflitter()
+    #download_leaflitter()
     
     #### read in data
     f16 <- read.csv(file.path(getToPath(), "FACE_P0017_RA_Litter_20160101-20161212-L1-V2.csv"))
@@ -59,3 +59,4 @@ make_litter_c_flux <- function(c_frac){
     
     return(litter_a)
 }
+

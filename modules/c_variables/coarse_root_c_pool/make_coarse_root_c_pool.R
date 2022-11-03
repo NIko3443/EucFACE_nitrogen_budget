@@ -12,7 +12,7 @@ make_coarse_root_pool <- function(c_frac, fr_pool) {
     #### 3. Then need to decide which model (stat.model): interaction, no_interaction, dynamic, and no_random_effect
     
     #- download the data from HIEv
-    download_diameter_data()
+    #download_diameter_data()
     
     #- read in 2012-15 data sets
     f13 <- read.csv(file.path(getToPath(), "FACE_P0025_RA_TREEMEAS_2012-13_RAW-V1.csv"))

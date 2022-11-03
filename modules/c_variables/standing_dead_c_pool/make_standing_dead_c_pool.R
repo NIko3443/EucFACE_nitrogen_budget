@@ -3,7 +3,7 @@
 make_standing_dead_c_pool <- function(ring_area, c_frac) {
     
     ### download the data from HIEv
-    download_mortality_data()
+    #download_mortality_data()
     
     ### read in mortality information
     morDF <- read.csv(file.path(getToPath(), "FACE_P0045_RA_MORTALITY_RAW_20150501_v1.csv"))

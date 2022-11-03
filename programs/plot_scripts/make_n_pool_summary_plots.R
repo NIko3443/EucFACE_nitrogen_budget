@@ -1,4 +1,4 @@
-make_n_pools_summary_plots <- function(inDF) {
+make_n_pool_summary_plots <- function(inDF) {
     
     ### Plot 1
     plotDF1 <- data.frame(c(inDF$aCO2[inDF$terms=="Canopy N Pool"], 

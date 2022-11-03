@@ -535,9 +535,9 @@ inDF=summary_table_concentration
 make_n_concentration_summary_plots(inDF=summary_table_concentration)
 
 
-source("programs/plot_scripts/make_n_pools_summary_plots.R")
+source("programs/plot_scripts/make_n_pool_summary_plots.R")
 inDF=summary_table_pool
-make_n_pools_summary_plots(inDF=summary_table_pool)
+make_n_pool_summary_plots(inDF=summary_table_pool)
 
 
 source("programs/plot_scripts/make_n_fluxes_summary_plots.R")
